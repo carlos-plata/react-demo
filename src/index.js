@@ -1,15 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-function MyApp() {
+function MyInfo() {
   return (
-    <ul>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-      <li>4</li>
-    </ul>
+    <div>
+      <h1>Charlie Silver</h1>
+      <p>Somethin about me...</p>
+      <ol>
+        <li>Cuernavaca</li>
+        <li>Costa Rica</li>
+        <li>Greece</li>
+      </ol>
+    </div>
   );
 }
 
-ReactDOM.render(<MyApp />, document.getElementById("root"));
+ReactDOM.render(<MyInfo />, document.getElementById("root"));
